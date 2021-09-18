@@ -20,7 +20,7 @@ public class ImageUtil {
 	public static String toBase64(String imageUrl) throws Exception {
 		if(imageUrl == null) {
 			imageUrl = "http://code2.car2b.com/data/_NewCarDB/FrontImage/20140319/forte.png";
-		}
+		} 
 		
 		URL url = new URL(imageUrl);		
 		BufferedImage img = ImageIO.read(url);		
