@@ -9,7 +9,7 @@ import com.myalley.image.util.ImageUtil;
 
 @RestController
 public class IndexController {
-
+	
 	@GetMapping("index")
 	public ModelAndView index(Model model) throws Exception {
 		model.addAttribute("img", ImageUtil.toBase64(null));
